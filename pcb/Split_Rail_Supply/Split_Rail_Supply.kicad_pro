@@ -58,7 +58,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_overlap|142320000|102100000|00c7947a-27f5-4519-8531-7444cec3446e|faf91e10-3a41-4cc4-b49f-cb4df98caf97"
+      ],
       "meta": {
         "version": 2
       },
@@ -242,7 +244,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|1257300|863600|35f2f929-fb5d-48d0-9a78-28834b0bf325|00000000-0000-0000-0000-000000000000|/01c40a36-3e5c-4cc8-838f-fa09c1ec2227|/01c40a36-3e5c-4cc8-838f-fa09c1ec2227|",
+      "power_pin_not_driven|2362200|330200|fc5b45cc-ac4d-4a7f-9d46-654b3f985e9b|00000000-0000-0000-0000-000000000000|/01c40a36-3e5c-4cc8-838f-fa09c1ec2227|/01c40a36-3e5c-4cc8-838f-fa09c1ec2227|",
+      "power_pin_not_driven|2476500|584200|c2c48b14-5a9e-4979-921a-b56d1a676964|00000000-0000-0000-0000-000000000000|/01c40a36-3e5c-4cc8-838f-fa09c1ec2227|/01c40a36-3e5c-4cc8-838f-fa09c1ec2227|"
+    ],
     "meta": {
       "version": 0
     },

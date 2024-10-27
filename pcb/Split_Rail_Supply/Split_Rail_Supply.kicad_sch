@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "01c40a36-3e5c-4cc8-838f-fa09c1ec2227")
 	(paper "A4")
+	(title_block
+		(title "Split Rail Supply")
+		(date "2024-10-27")
+		(rev "A")
+		(company "fl0m0")
+		(comment 1 "3V to 9V input to ±5V output supply")
+	)
 	(lib_symbols
 		(symbol "Capacitor_User:10uF,25V,X5R,0603"
 			(pin_numbers hide)
@@ -2280,164 +2287,6 @@
 				)
 			)
 		)
-		(symbol "Resistor_User:0R,0603"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 -0.635 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "0R,0603"
-				(at 1.905 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at 2.54 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 2.54 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Resistance" "0R"
-				(at 1.905 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Power" "0.1W"
-				(at 10.795 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package" "0603"
-				(at 4.445 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0R,0603_1_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Resistor_User:10k,0603"
 			(pin_numbers hide)
 			(pin_names
@@ -2754,6 +2603,164 @@
 				)
 			)
 		)
+		(symbol "Resistor_User:22k,0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22k,0603"
+				(at 1.905 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+				(at 2.54 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 2.54 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "22k"
+				(at 1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Power" "0.1W"
+				(at 10.795 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603"
+				(at 4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "22k,0603_1_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Resistor_User:2k,0603"
 			(pin_numbers hide)
 			(pin_names
@@ -2912,6 +2919,164 @@
 				)
 			)
 		)
+		(symbol "Resistor_User:3k,0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "3k,0603"
+				(at 1.905 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+				(at 2.54 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 2.54 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "3k"
+				(at 1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Power" "0.1W"
+				(at 10.795 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603"
+				(at 4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3k,0603_1_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3008,6 +3173,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 39.37 95.25)
@@ -3049,7 +3310,13 @@
 		(at 109.22 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "33fafdc6-7e1f-49e1-b831-05cd54402433")
+		(uuid "20394166-efb4-498a-ac62-0ab43ab78e7e")
+	)
+	(junction
+		(at 115.57 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21570a6c-26b4-4085-8f35-4fc9c175d8df")
 	)
 	(junction
 		(at 209.55 76.2)
@@ -3104,6 +3371,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c7e4d2c-778b-408a-8019-a4aae6522f7a")
+	)
+	(junction
+		(at 55.88 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "844da79e-6f0e-4ccd-a74c-b9fd0e039476")
 	)
 	(junction
 		(at 168.91 76.2)
@@ -3190,12 +3463,6 @@
 		(uuid "cd073e35-1491-4ed5-afe5-6fd9ad1d75af")
 	)
 	(junction
-		(at 106.68 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d646da32-36b3-4368-a5c6-a645af9b45ff")
-	)
-	(junction
 		(at 247.65 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3253,7 +3520,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 83.82) (xy 106.68 83.82)
+			(xy 101.6 86.36) (xy 109.22 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3383,7 +3650,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 76.2) (xy 106.68 76.2)
+			(xy 81.28 76.2) (xy 109.22 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3430,6 +3697,26 @@
 			(type default)
 		)
 		(uuid "26693226-2f62-4d27-9a18-9ccfffa7a99e")
+	)
+	(wire
+		(pts
+			(xy 33.02 93.98) (xy 33.02 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5573d8-05bc-4507-9e97-9a9c818eea76")
+	)
+	(wire
+		(pts
+			(xy 55.88 76.2) (xy 66.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad34806-0ecd-4e08-a28b-82332dee36ce")
 	)
 	(wire
 		(pts
@@ -3523,6 +3810,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 95.25) (xy 39.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486b276d-01b1-4588-945f-693c6b37de46")
+	)
+	(wire
+		(pts
 			(xy 168.91 85.09) (xy 168.91 86.36)
 		)
 		(stroke
@@ -3530,16 +3827,6 @@
 			(type default)
 		)
 		(uuid "49034ff0-38ba-449f-881d-58aae72dae10")
-	)
-	(wire
-		(pts
-			(xy 106.68 76.2) (xy 106.68 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "495d2e64-26d5-4b8b-89c6-4869f5532c2c")
 	)
 	(wire
 		(pts
@@ -3683,6 +3970,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 95.25) (xy 125.73 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf3d81e-cb3b-41db-a125-b552f90ed334")
+	)
+	(wire
+		(pts
 			(xy 109.22 86.36) (xy 115.57 86.36)
 		)
 		(stroke
@@ -3733,7 +4030,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 76.2) (xy 66.04 76.2)
+			(xy 54.61 76.2) (xy 55.88 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3810,6 +4107,26 @@
 			(type default)
 		)
 		(uuid "94e89c09-3100-410d-b602-fcf07628b7f1")
+	)
+	(wire
+		(pts
+			(xy 115.57 88.9) (xy 115.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95093623-148c-4e0c-aeb0-1adb48ac357b")
+	)
+	(wire
+		(pts
+			(xy 101.6 88.9) (xy 115.57 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98054ec0-a225-4612-ad62-65390dc57daf")
 	)
 	(wire
 		(pts
@@ -3943,7 +4260,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 95.25) (xy 125.73 95.25)
+			(xy 81.28 95.25) (xy 115.57 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3980,16 +4297,6 @@
 			(type default)
 		)
 		(uuid "c285150d-0b75-4fa3-98d2-c9e9ab3ac941")
-	)
-	(wire
-		(pts
-			(xy 101.6 86.36) (xy 109.22 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4a5c18c-da3e-4f70-9d71-baeee301923e")
 	)
 	(wire
 		(pts
@@ -4090,16 +4397,6 @@
 			(type default)
 		)
 		(uuid "e96afd7c-21ef-4982-975c-fc6e05c65433")
-	)
-	(wire
-		(pts
-			(xy 106.68 76.2) (xy 109.22 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9bfaa76-0597-40c4-824d-3d114b320ffd")
 	)
 	(wire
 		(pts
@@ -4210,6 +4507,17 @@
 			(type default)
 		)
 		(uuid "fc101ab5-faf5-473d-8d18-37a0b7828018")
+	)
+	(label "En"
+		(at 104.14 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b65df85-b447-43c1-842f-fb593c1a8813")
 	)
 	(label "Vin"
 		(at 43.18 76.2 0)
@@ -5603,6 +5911,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 55.88 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "469fb536-99e1-48c3-bb22-7e93ff6af5d5")
+		(property "Reference" "#FLG01"
+			(at 55.88 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4d763da-4459-430b-a469-67c658b06755")
+		)
+		(instances
+			(project "Split_Rail_Supply"
+				(path "/01c40a36-3e5c-4cc8-838f-fa09c1ec2227"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 250.19 73.66 0)
 		(unit 1)
@@ -6649,7 +7023,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_User:10k,0603")
+		(lib_id "Resistor_User:22k,0603")
 		(at 160.02 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6667,7 +7041,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k,0603"
+		(property "Value" "22k,0603"
 			(at 161.925 80.01 0)
 			(effects
 				(font
@@ -6704,7 +7078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "10k"
+		(property "Resistance" "22k"
 			(at 162.56 83.8199 0)
 			(effects
 				(font
@@ -6840,6 +7214,72 @@
 			(project "Split_Rail_Supply"
 				(path "/01c40a36-3e5c-4cc8-838f-fa09c1ec2227"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 33.02 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a353693b-1b70-4d7d-96cb-7c172902ba6b")
+		(property "Reference" "#FLG02"
+			(at 33.02 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 33.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b230903-adc2-42e0-acc9-8a0d0aa062b1")
+		)
+		(instances
+			(project "Split_Rail_Supply"
+				(path "/01c40a36-3e5c-4cc8-838f-fa09c1ec2227"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -7075,8 +7515,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_User:JST_B2B-PH-K-x")
-		(at 96.52 86.36 0)
+		(lib_id "Connector_User:Pin_Header_01x02_Wurth_61300211121")
+		(at 96.52 87.63 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7085,7 +7525,7 @@
 		(dnp no)
 		(uuid "c39b5fa8-720e-416f-8f02-ff9284fdae39")
 		(property "Reference" "J9"
-			(at 97.536 80.772 0)
+			(at 97.536 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7093,17 +7533,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST_B2B-PH-K-x"
-			(at 112.014 89.408 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 97.155 97.155 0)
+		(property "Value" "Header_01x02_Wurth_61300211121"
+			(at 96.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,8 +7542,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
-			(at 97.155 97.155 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 97.155 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,8 +7551,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Header, 01x02, Vertical, THT, 2.0mm"
-			(at 96.52 86.36 0)
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/61300211121.pdf"
+			(at 97.155 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,8 +7560,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JST"
-			(at 96.52 96.52 0)
+		(property "Description" "Pin Header,Wurth Electronics, 61300211121, 01x02, 2.54mm"
+			(at 96.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7138,8 +7569,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "B2B-PH-K-S(LF)(SN)"
-			(at 96.52 96.52 0)
+		(property "Manufacturer" "Wurth Electronics"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61300211121"
+			(at 96.52 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,7 +7588,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 96.52 97.155 0)
+			(at 96.52 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7156,13 +7596,21 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "455-1262-ND"
-			(at 96.52 96.52 0)
+		(property "SPN" "732-5315-ND"
+			(at 96.52 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Pretty Value" "01x02 Header"
+			(at 96.52 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7814,7 +8262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_User:0R,0603")
+		(lib_id "Resistor_User:10k,0603")
 		(at 109.22 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7832,7 +8280,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R,0603"
+		(property "Value" "10k,0603"
 			(at 111.125 78.74 0)
 			(effects
 				(font
@@ -7869,7 +8317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "0R"
+		(property "Resistance" "10k"
 			(at 111.76 82.5499 0)
 			(effects
 				(font
@@ -8101,7 +8549,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor_User:10k,0603")
+		(lib_id "Resistor_User:3k,0603")
 		(at 160.02 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8119,7 +8567,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k,0603"
+		(property "Value" "3k,0603"
 			(at 161.925 87.63 0)
 			(effects
 				(font
@@ -8156,7 +8604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "10k"
+		(property "Resistance" "3k"
 			(at 162.56 91.4399 0)
 			(effects
 				(font
